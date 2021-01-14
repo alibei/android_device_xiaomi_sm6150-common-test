@@ -97,6 +97,7 @@ int open_ts_input() {
                 if (ioctl(fd, EVIOCGNAME(sizeof(name) - 1), &name) > 0) {
                     if (strcmp(name, "fts_ts") == 0 || strcmp(name, "fts") == 0 || 
                             strcmp(name, "goodix_ts") == 0 ||
+                            strcmp(name, "NVTCapacitiveTouchScreen") == 0)
                         break;
                 }
 
