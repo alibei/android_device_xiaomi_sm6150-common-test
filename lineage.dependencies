@@ -1,10 +1,14 @@
 [
   {
-    "repository": "android_hardware_xiaomi",
+    "repository": "LineageOS/android_vendor_qcom_opensource_healthd-ext",
+    "target_path": "vendor/qcom/opensource/healthd-ext"
+  },
+  {
+    "repository": "LineageOS/android_hardware_xiaomi",
     "target_path": "hardware/xiaomi"
   },
   {
-    "repository": "android_kernel_xiaomi_sm6150",
+    "repository": "alibei/android_kernel_xiaomi_sm6150",
     "target_path": "kernel/xiaomi/sm6150"
   }
 ]
