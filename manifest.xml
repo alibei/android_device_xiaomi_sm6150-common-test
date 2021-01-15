@@ -543,4 +543,14 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
              <instance>dpmQmiService</instance>
          </interface>
      </hal>
+     <!-- Perf service-->
+    <hal format="hidl">
+        <name>vendor.qti.hardware.perf</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <interface>
+            <name>IPerf</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </manifest>
