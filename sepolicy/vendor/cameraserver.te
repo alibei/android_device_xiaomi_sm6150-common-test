@@ -1,0 +1,1 @@
+allow cameraserver app_data_file:file { read };
